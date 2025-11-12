@@ -1131,10 +1131,6 @@
     min-height: calc(var(--spacing) * 16);
   }
 
-  .min-h-24 {
-    min-height: calc(var(--spacing) * 24);
-  }
-
   .min-h-screen {
     min-height: 100vh;
   }
@@ -4870,12 +4866,6 @@
     .md\:after\:hidden:after {
       content: var(--tw-content);
       display: none;
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:block {
-      display: block;
     }
   }
 
