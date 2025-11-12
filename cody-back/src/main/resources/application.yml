@@ -10,7 +10,7 @@ spring:
       ddl-auto: validate
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
+        dialect: org.hibernate.dialect.PostgreSQLDialect
     open-in-view: false
 
   flyway:
@@ -44,3 +44,7 @@ management:
   endpoint:
     health:
       show-details: always
+
+# CORS 설정 (기본값)
+cors:
+  allowed-origins: http://localhost:3000,http://localhost:3001

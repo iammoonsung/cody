@@ -53,7 +53,7 @@ public interface HistoryRepository extends JpaRepository<History, Long> {
      * 특정 월의 착용 기록 조회
      */
     @Query("SELECT h FROM History h WHERE " +
-            "YEAR(h.wornDate) = :year AND MONTH(h.wornDate) = :month " +
+            "EXTRACT(YEAR FROM h.wornDate) = :year AND EXTRACT(MONTH FROM h.wornDate) = :month " +
             "ORDER BY h.wornDate ASC")
     List<History> findByYearAndMonth(@Param("year") int year, @Param("month") int month);
 

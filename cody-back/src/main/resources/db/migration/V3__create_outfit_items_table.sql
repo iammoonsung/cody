@@ -1,10 +1,11 @@
 CREATE TABLE outfit_items (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    id BIGSERIAL PRIMARY KEY,
     outfit_id BIGINT NOT NULL,
     item_id BIGINT NOT NULL,
-    FOREIGN KEY (outfit_id) REFERENCES outfits(id) ON DELETE CASCADE,
-    FOREIGN KEY (item_id) REFERENCES items(id) ON DELETE CASCADE,
-    UNIQUE KEY uk_outfit_item (outfit_id, item_id),
-    INDEX idx_outfit (outfit_id),
-    INDEX idx_item (item_id)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    CONSTRAINT fk_outfit FOREIGN KEY (outfit_id) REFERENCES outfits(id) ON DELETE CASCADE,
+    CONSTRAINT fk_item FOREIGN KEY (item_id) REFERENCES items(id) ON DELETE CASCADE,
+    CONSTRAINT uk_outfit_item UNIQUE (outfit_id, item_id)
+);
+
+CREATE INDEX idx_outfit_items_outfit ON outfit_items(outfit_id);
+CREATE INDEX idx_outfit_items_item ON outfit_items(item_id);

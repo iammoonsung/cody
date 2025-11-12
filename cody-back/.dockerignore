@@ -1,0 +1,46 @@
+# Gradle
+.gradle
+build
+out
+bin
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+.settings
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (프론트엔드가 같은 레포에 있는 경우)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# 문서
+*.md
+!README.md
+
+# 기타
+.env
+.env.local
+*.log
+tmp
+temp
+
+# Docker 관련
+Dockerfile
+.dockerignore
+docker-compose.yml
+
