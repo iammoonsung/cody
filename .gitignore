@@ -1,0 +1,104 @@
+# ==========================================
+# Backend (Spring Boot / Gradle)
+# ==========================================
+
+# Gradle
+cody-back/.gradle/
+cody-back/build/
+cody-back/out/
+cody-back/bin/
+cody-back/*.jar
+cody-back/*.war
+cody-back/*.ear
+cody-back/*.zip
+cody-back/*.tar.gz
+cody-back/*.rar
+
+# IDE
+cody-back/.idea/
+cody-back/*.iml
+cody-back/*.iws
+cody-back/*.ipr
+cody-back/.vscode/
+cody-back/.settings/
+cody-back/.classpath
+cody-back/.project
+
+# H2 Database
+cody-back/*.db
+cody-back/*.mv.db
+cody-back/*.trace.db
+cody-back/*.lock.db
+
+# Logs
+cody-back/logs/
+cody-back/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Frontend (Next.js / Node.js)
+# ==========================================
+
+# Dependencies
+cody-front/node_modules/
+cody-front/.pnp/
+cody-front/.pnp.js
+
+# Next.js
+cody-front/.next/
+cody-front/out/
+
+# Production
+cody-front/build/
+
+# Testing
+cody-front/coverage/
+
+# Environment variables
+cody-front/.env*.local
+cody-front/.env.local
+cody-front/.env.development.local
+cody-front/.env.test.local
+cody-front/.env.production.local
+
+# Debug
+cody-front/npm-debug.log*
+cody-front/yarn-debug.log*
+cody-front/yarn-error.log*
+
+# IDE
+cody-front/.vscode/
+cody-front/.idea/
+
+# Vercel
+cody-front/.vercel
+
+# TypeScript
+cody-front/*.tsbuildinfo
+cody-front/next-env.d.ts
+
+# ==========================================
+# Global Ignores
+# ==========================================
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Compiled files
+*.jar
+*.war
+*.ear
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
