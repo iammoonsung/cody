@@ -70,6 +70,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
           </Link>
+          
 
           <Link href="/outfits" className="group">
             <Card className="h-full border border-border/50 hover:border-border transition-all duration-300">
