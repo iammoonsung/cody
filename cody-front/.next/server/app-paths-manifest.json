@@ -2,13 +2,13 @@
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/calendar/page": "app/calendar/page.js",
-  "/outfits/[id]/page": "app/outfits/[id]/page.js",
+  "/outfits/[id]/page": "app-edge-has-no-entrypoint",
   "/outfits/create/page": "app/outfits/create/page.js",
   "/outfits/page": "app/outfits/page.js",
   "/page": "app/page.js",
   "/recommend/page": "app/recommend/page.js",
   "/recommend/result/page": "app/recommend/result/page.js",
-  "/wardrobe/[id]/page": "app/wardrobe/[id]/page.js",
+  "/wardrobe/[id]/page": "app-edge-has-no-entrypoint",
   "/wardrobe/add/page": "app/wardrobe/add/page.js",
   "/wardrobe/page": "app/wardrobe/page.js"
 }

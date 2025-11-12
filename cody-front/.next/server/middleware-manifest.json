@@ -2,5 +2,110 @@
   "version": 3,
   "middleware": {},
   "sortedMiddleware": [],
-  "functions": {}
+  "functions": {
+    "/outfits/[id]/page": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/next-font-manifest.js",
+        "server/server-reference-manifest.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_56a9ec2e._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_16fc271a._.js",
+        "server/edge/chunks/ssr/node_modules_d5142890._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_f49f2b82._.js",
+        "server/edge/chunks/ssr/node_modules_694eed9d._.js",
+        "server/edge/chunks/ssr/_584a0747._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_3d2208df._.js",
+        "server/edge/chunks/ssr/node_modules_a24e113f._.js",
+        "server/edge/chunks/ssr/_ef7d5bde._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_server_app-render_34575bf2._.js",
+        "server/edge/chunks/ssr/app_outfits_[id]_page_tsx_6128d08c._.js",
+        "server/edge/chunks/ssr/_5ac57cf9._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_8a4454fb._.js",
+        "server/app/outfits/[id]/page_client-reference-manifest.js",
+        "server/edge/chunks/ssr/_next-internal_server_app_outfits_[id]_page_actions_7ba80b0e.js",
+        "server/edge/chunks/ssr/_d691fa1f._.js",
+        "server/edge/chunks/ssr/_9a474d8e._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_8aeec4fa._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_3a2edfe4._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__1f142cd2._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_compiled_2adaed9e._.js",
+        "server/edge/chunks/ssr/node_modules_de05cff2._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_296b0166._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__235c5541._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__7970588a._.js",
+        "server/edge/chunks/ssr/turbopack-edge-wrapper_b4bcf064.js",
+        "server/app/outfits/[id]/page/react-loadable-manifest.js"
+      ],
+      "name": "app/outfits/[id]/page",
+      "page": "/outfits/[id]/page",
+      "matchers": [
+        {
+          "regexp": "^/outfits/(?P<nxtPid>[^/]+?)(?:/)?$",
+          "originalSource": "/outfits/[id]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "Q4SGmTuwP5tTy--rzdko7",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "UoK2cRnlWeJHXHVUoGuvFVPbnoBBS5uGcUBVV2cxUmQ=",
+        "__NEXT_PREVIEW_MODE_ID": "75f9a32f10a8fa8945db2b5865d4876c",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "0d7bf00f48535445d8d3dc0c9ee3a363155433f51f031216e01df2d94c10a13b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "effd6c70a00a558be123e3fe859d28dc65dd07f47c15e7316759a2dd62e3132d"
+      }
+    },
+    "/wardrobe/[id]/page": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/next-font-manifest.js",
+        "server/server-reference-manifest.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_56a9ec2e._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_16fc271a._.js",
+        "server/edge/chunks/ssr/node_modules_d5142890._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_f49f2b82._.js",
+        "server/edge/chunks/ssr/node_modules_694eed9d._.js",
+        "server/edge/chunks/ssr/_584a0747._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_3d2208df._.js",
+        "server/edge/chunks/ssr/node_modules_a24e113f._.js",
+        "server/edge/chunks/ssr/_ef7d5bde._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_server_app-render_34575bf2._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_8a4454fb._.js",
+        "server/edge/chunks/ssr/_0645c2d8._.js",
+        "server/edge/chunks/ssr/app_wardrobe_[id]_page_tsx_c98e468b._.js",
+        "server/app/wardrobe/[id]/page_client-reference-manifest.js",
+        "server/edge/chunks/ssr/_next-internal_server_app_wardrobe_[id]_page_actions_85c659a0.js",
+        "server/edge/chunks/ssr/_1732a175._.js",
+        "server/edge/chunks/ssr/_c170025e._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_8aeec4fa._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__7970588a._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__1f142cd2._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_esm_3a2edfe4._.js",
+        "server/edge/chunks/ssr/node_modules_de05cff2._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_296b0166._.js",
+        "server/edge/chunks/ssr/[root-of-the-server]__235c5541._.js",
+        "server/edge/chunks/ssr/node_modules_next_dist_compiled_2adaed9e._.js",
+        "server/edge/chunks/ssr/turbopack-edge-wrapper_59bf1023.js",
+        "server/app/wardrobe/[id]/page/react-loadable-manifest.js"
+      ],
+      "name": "app/wardrobe/[id]/page",
+      "page": "/wardrobe/[id]/page",
+      "matchers": [
+        {
+          "regexp": "^/wardrobe/(?P<nxtPid>[^/]+?)(?:/)?$",
+          "originalSource": "/wardrobe/[id]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "Q4SGmTuwP5tTy--rzdko7",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "UoK2cRnlWeJHXHVUoGuvFVPbnoBBS5uGcUBVV2cxUmQ=",
+        "__NEXT_PREVIEW_MODE_ID": "75f9a32f10a8fa8945db2b5865d4876c",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "0d7bf00f48535445d8d3dc0c9ee3a363155433f51f031216e01df2d94c10a13b",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "effd6c70a00a558be123e3fe859d28dc65dd07f47c15e7316759a2dd62e3132d"
+      }
+    }
+  }
 }
