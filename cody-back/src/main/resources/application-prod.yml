@@ -1,0 +1,31 @@
+# Production Environment Configuration
+# 프로덕션 환경 설정
+# 민감한 정보는 시스템 환경변수로 설정하세요
+
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:mysql://localhost:3306/cody_wardrobe}
+    username: ${DATABASE_USERNAME:root}
+    password: ${DATABASE_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: false
+
+server:
+  port: ${SERVER_PORT:8080}
+
+# CORS 설정 - 프로덕션 환경
+cors:
+  allowed-origins:
+    - ${FRONTEND_URL:https://yourdomain.com}
+
+logging:
+  level:
+    root: INFO
+    com.cody.wardrobe: INFO
+    org.hibernate.SQL: INFO
+

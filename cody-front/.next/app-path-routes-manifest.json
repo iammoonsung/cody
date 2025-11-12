@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/calendar/page": "/calendar",
+  "/outfits/[id]/page": "/outfits/[id]",
+  "/outfits/create/page": "/outfits/create",
+  "/outfits/page": "/outfits",
+  "/page": "/",
+  "/recommend/page": "/recommend",
+  "/recommend/result/page": "/recommend/result",
+  "/wardrobe/[id]/page": "/wardrobe/[id]",
+  "/wardrobe/add/page": "/wardrobe/add",
+  "/wardrobe/page": "/wardrobe"
+}

@@ -1,0 +1,34 @@
+package com.cody.wardrobe.domain.outfit.dto;
+
+import com.cody.wardrobe.controller.dto.outfit.OutfitRequest;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.util.List;
+
+/**
+ * Service Layer에서 사용하는 코디 수정 DTO
+ * Controller의 OutfitRequest를 변환하여 전달
+ */
+@Getter
+@AllArgsConstructor
+public class OutfitUpdateDto {
+    private String name;
+    private Integer rating;
+    private Integer formalityLevel;
+    private String memo;
+    private List<Long> itemIds;
+
+    /**
+     * OutfitRequest를 OutfitUpdateDto로 변환하는 정적 팩토리 메서드
+     */
+    public static OutfitUpdateDto from(OutfitRequest request) {
+        return new OutfitUpdateDto(
+                request.getName(),
+                request.getRating(),
+                request.getFormalityLevel(),
+                request.getMemo(),
+                request.getItemIds()
+        );
+    }
+}

@@ -1,0 +1,12 @@
+CREATE TABLE items (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    category VARCHAR(20) NOT NULL,
+    name VARCHAR(200),
+    image_url VARCHAR(500) NOT NULL,
+    color VARCHAR(50),
+    season VARCHAR(20),
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_category (category),
+    INDEX idx_season (season)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
