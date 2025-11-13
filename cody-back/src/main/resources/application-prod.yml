@@ -23,7 +23,7 @@ server:
 
 # CORS 설정 - 프로덕션 환경
 cors:
-  allowed-origins: ${FRONTEND_URL:https://yourdomain.com}
+  allowed-origins: https://fc8f9698.cody-60p.pages.dev,http://localhost:3000,http://localhost:3001
 
 logging:
   level:
